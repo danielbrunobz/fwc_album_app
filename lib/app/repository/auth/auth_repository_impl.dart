@@ -1,12 +1,12 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
+import 'package:fifa_world_cup_album/app/core/rest/custom_dio.dart';
+import 'package:fifa_world_cup_album/app/models/register_user_model.dart';
 
 import '../../core/exceptions /repository_exception.dart';
 import '../../core/exceptions /unauthorized_exception.dart';
-import '../../core/rest/custom_dio.dart';
-import '../../models/register_user_model.dart';
-import 'auth_repository.dart';
+import './auth_repository.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final CustomDio dio;
