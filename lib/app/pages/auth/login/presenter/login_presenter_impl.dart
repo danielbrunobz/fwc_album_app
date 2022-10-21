@@ -1,7 +1,8 @@
 import 'dart:developer';
 import 'package:fifa_world_cup_album/app/pages/auth/login/view/login_view.dart';
 import 'package:fifa_world_cup_album/app/services/login/login_service.dart';
-import '../../../../core/exceptions /unauthorized_exception.dart';
+
+import '../../../../core/exceptions/unauthorized_exception.dart';
 import 'login_presenter.dart';
 
 class LoginPresenterImpl implements LoginPresenter {
