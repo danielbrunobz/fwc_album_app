@@ -1,3 +1,5 @@
+import 'package:fifa_world_cup_album/app/pages/home/home_route.dart';
+import 'package:fifa_world_cup_album/app/pages/my_stickers/my_sticker_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_getit/flutter_getit.dart';
 
@@ -35,7 +37,8 @@ class FwcAlbumApp extends StatelessWidget {
           '/': (_) => const SplashRoute(),
           '/auth/login': (_) => const LoginRoute(),
           '/auth/register': (_) => const RegisterRoute(),
-          '/home': (_) => const HomePage(),
+          '/home': (_) => const HomeRoute(),
+          '/my-stickers': (_) => const MyStickerPage(),
         },
       ),
     );
