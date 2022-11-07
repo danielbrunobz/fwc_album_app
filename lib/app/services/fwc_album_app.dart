@@ -1,5 +1,5 @@
 import 'package:fifa_world_cup_album/app/pages/home/home_route.dart';
-import 'package:fifa_world_cup_album/app/pages/my_stickers/my_sticker_page.dart';
+import 'package:fifa_world_cup_album/app/pages/my_stickers/my_stickers_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_getit/flutter_getit.dart';
 
